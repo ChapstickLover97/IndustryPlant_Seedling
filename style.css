@@ -2,6 +2,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-image: url("images/16_image-asset.jpg");
+    background-size: cover;
   }
   
   /* Header styles */
@@ -25,40 +27,6 @@ body {
     color: white;
     text-decoration: none;
     margin-right: 1.5rem;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  nav li {
-    margin-right: 1.5rem;
-  }
-  
-  nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.1rem;
-  }
-  
-  nav a:hover {
-    color: #FFD700;
-  }
-  
-  .header-right button {
-    background-color: #FFD700;
-    color: black;
-    border: none;
-    border-radius: 3px;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-left: 1rem;
-  }
-  
-  .login-btn:hover, .signup-btn:hover {
-    background-color: #F0E68C;
   }
   
   /* Landing page styles */
@@ -142,5 +110,6 @@ body {
     align-items: center;
     height: 80vh;
   }
+  
   
   

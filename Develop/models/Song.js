@@ -1,9 +1,10 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Project extends Model {}
+class Song extends Model {}
 
-Project.init(
+// defines the table SONG and all the colomns contained within
+Song.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -11,26 +12,23 @@ Project.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    name: {
+    title: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    description: {
-      type: DataTypes.STRING,
+    length: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
     },
-    date_created: {
+    year_released: {
       type: DataTypes.DATE,
       allowNull: false,
       defaultValue: DataTypes.NOW,
     },
-    needed_funding: {
-      type: DataTypes.FLOAT,
-      allowNull: false,
-    },
-    user_id: {
+    artist_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'user',
+        model: 'artist',
         key: 'id',
       },
     },
@@ -40,8 +38,8 @@ Project.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'project',
+    modelName: 'song',
   }
 );
 
-module.exports = Project;
+module.exports = Song;

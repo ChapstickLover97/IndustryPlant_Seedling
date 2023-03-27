@@ -8,6 +8,8 @@ class User extends Model {
   }
 }
 
+// defines the table USER and all the colomns contained within
+
 User.init(
   {
     id: {
@@ -16,7 +18,7 @@ User.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    name: {
+    username: {
       type: DataTypes.STRING,
       allowNull: false,
     },
@@ -36,6 +38,7 @@ User.init(
       },
     },
   },
+  // ensures user is logged in before updating datatbase (through bcrypt)
   {
     hooks: {
       beforeCreate: async (newUserData) => {

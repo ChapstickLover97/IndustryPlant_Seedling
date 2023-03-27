@@ -17,13 +17,16 @@ Song.init(
       allowNull: false,
     },
     length: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
       allowNull: false,
     },
     year_released: {
-      type: DataTypes.DATE,
+      type: DataTypes.INTEGER,
       allowNull: false,
-      defaultValue: DataTypes.NOW,
+    },
+    genre: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
     artist_id: {
       type: DataTypes.INTEGER,

@@ -16,7 +16,7 @@ Artist.init(
         type: DataTypes.STRING,
         allowNull: false,
       },
-      formed_date: {
+      formed_year: {
         type: DataTypes.INTEGER,
         allowNull: false,
       }

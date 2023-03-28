@@ -14,6 +14,11 @@ const artistData = [{
     id: 666,
     name: 'Atilla',
     formed_year: 2005
+},
+{
+    id: 624,
+    name: "Lizzo",
+    formed_year: 2013
 }
 ];
 const artistSeeds = () => Artist.bulkcreate(artistData);

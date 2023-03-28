@@ -13,12 +13,12 @@ Review.init(
         autoIncrement: true,
       },
       reviewed_date: {
-        type: DataTypes.DATE,
+        type: DataTypes.STRING,
         allowNull: false,
-        defaultValue: DataTypes.NOW,
       },
       user_id: {
         type: DataTypes.INTEGER,
+        allowNull: false,
         references: {
           model: 'user',
           key: 'id',
@@ -26,6 +26,7 @@ Review.init(
       },
       song_id: {
         type: DataTypes.INTEGER,
+        allowNull: false,
         references: {
           model: 'song',
           key: 'id',

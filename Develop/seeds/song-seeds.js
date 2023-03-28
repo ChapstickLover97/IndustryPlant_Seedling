@@ -23,6 +23,14 @@ const songData = [{
     year_released: 2023,
     genre: "rock",
     artist_id: 619
+},
+{
+    id: 6,
+    title: "Coldplay",
+    length: "2:55",
+    year_released: 2022,
+    genre: "pop",
+    artist_id: 624
 },];
 
 const songSeeds = () => Song.bulkcreate(songData);

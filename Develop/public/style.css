@@ -110,5 +110,24 @@ body {
     align-items: center;
     height: 80vh;
   }
+
+#artistName {
+  width: 30vh;
+  height: 5vh;
+  font-size: 4vh; 
+}
+#trackName {
+  width: 30vh;
+  height: 5vh;
+  font-size: 4vh;
+}
+
+#label-for {
+  font-size: 3vh;
+}
+
+#genres {
+  font-size: 3vh;
+}
   
   

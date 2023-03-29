@@ -40,26 +40,28 @@ sequelize.sync({ force: false }).then(() => {
 
 // routes
 app.get('/', (req, res) => {
-  res.send(`
-  <h1>LANDING PAGE HTML GOES HERE</h1>
-  `)
+  res.render('landingpage', {
+
+  })
 })
 
  app.get('/search', (req, res) => {
-    res.send(`
-    <h1>SEARCH STUFF HTML GOES HERE</h1>
-    `)
+    res.render('search', {
+
+    })
  })
 
  app.get('/post-review', (req, res) => {
-  res.send(`
-  <h1>MUSIC REVIEW HTML GOES HERE</h1>
-  `)
+  res.render('post-review', {
+
+  })
  })
  
- // Handlebars
+
  app.get('/artist-list', () => {
-  
+  res.render('artist-list', {
+    
+  })  
  })
 
  post.get('/login', () => {

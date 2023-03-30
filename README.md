@@ -2,7 +2,8 @@
 
 ## Description
 Industry Plant is an app focused around a user-based data structure that allows users to submit their favorite artists to the database, and then attach a review to the artist's single track.  After, their review will be upvoted or downvoted by other users, and democratically stacked based on the highest amount of likes.  
-We used vanilla HTML, CSS and JS at first, and later transitioned to using Express, Express-Session, Handlebars, and SQL to build the structure from the ground-up, and then deployed to Heroku.  
+We used vanilla HTML, CSS and JS at first, and later transitioned to using Express, Express-Session, Handlebars, and SQL to build the structure from the ground-up, and then deployed to Heroku.
+Our original motivation was wanting to do something SIMPLE, but fun and approachable for most people.  Music is something we are all passionate about, and it's something that's extremely subjective, which leads to discussion and a wide variety of opions.  Ultimately, we wanted to create a democratic system that rewarded the individual's desire to put their voice out in public in a thoughtful and critical lens.  
 Most of our challenges were around the fact that most of us felt pretty far-behind, and there just wasn't enough time for us to catch up.  We did our absolute best to get the app as far along as we possibly could (and it honestly looked and ran pretty great while we were in vanilla JS!) but then things started to go downhill when we had to use technology we just weren't ready to use.  
 In the future, obviously we'll keep working on the technologies we're using so that we're better able to employ them without constantly looking up a tutorial for something that takes 30 seconds to do (if you know what you're doing).  We also want to continue to build up the database so that the user could review not just single tracks off albums, but entire albums, EP's, or basically any unit of music possible.
 

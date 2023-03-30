@@ -12,10 +12,10 @@ Upon creating an account, you're welcomed to the home/search page which is popul
 
 ## Credits
 It's messy, because basically EVERYONE did a little bit of everything.  However, each person did have some specialties:
-___Will: focused on organizational structure and linking each individual part
-___Sean: focused on deployment and making sure the final product is as polished as possible
-___Muntaas: focused on designing the aesthetic, layout, and the general guide for how the project was going to end
-___Ashton: focused on general logic and functionality, as well as most of the simple UI/UX
++ Will: focused on organizational structure and linking each individual part
++ Sean: focused on handlebars.js, enviroment variables, deployment and making sure the final product is as polished as possible
++ Muntaas: focused on designing the aesthetic and layout using handlebars as well as the general guide for how the project was going to end
++ Ashton: focused on general logic and functionality, as well as most of the simple UI/UX
 
 ## License
 Copyright 2023 INDUSTRY PLANT LLC
@@ -26,3 +26,5 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+## Links
+This site was built using [Heroku](https://industry-plant-app.herokuapp.com/).

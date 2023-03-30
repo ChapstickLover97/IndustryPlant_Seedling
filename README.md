@@ -13,9 +13,9 @@ Upon creating an account, you're welcomed to the home/search page which is popul
 ## Credits
 It's messy, because basically EVERYONE did a little bit of everything.  However, each person did have some specialties:
 + Will: focused on organizational structure and linking each individual part
-___Sean: focused on handlebars.js, enviroment variables, deployment and making sure the final product is as polished as possible
-___Muntaas: focused on designing the aesthetic, layout, and the general guide for how the project was going to end
-___Ashton: focused on general logic and functionality, as well as most of the simple UI/UX
++ Sean: focused on handlebars.js, enviroment variables, deployment and making sure the final product is as polished as possible
++ Muntaas: focused on designing the aesthetic and layout using handlebars as well as the general guide for how the project was going to end
++ Ashton: focused on general logic and functionality, as well as most of the simple UI/UX
 
 ## License
 Copyright 2023 INDUSTRY PLANT LLC

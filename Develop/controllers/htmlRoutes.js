@@ -25,10 +25,13 @@ app.get('/', (req, res) => {
     })  
    })
   
-   // post.get('/login', () => {
-  
-   // })
-  
+    
+   app.post('/signup', (req, res) => {
+   })
+
+   app.post('/login', (req, res) => {
+   })
+
    // post.get('/search', () => {
     
    // })

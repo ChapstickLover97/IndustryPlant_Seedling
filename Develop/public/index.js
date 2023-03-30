@@ -16,6 +16,38 @@ showLoginStuff.addEventListener("click", function() {
     signupBtn.style.display = "none";
 });
 
+signupBtn.addEventListener('click', function() {
+  const data = {
+    userName: userSignup.value,
+    password: passwordSignup.value,
+  };
+  const options = {
+     method: 'POST',
+     headers: {
+        'Content-Type': 'application/json'
+     },
+     body: JSON.stringify(data)
+  }
+  fetch('/signup', options);
+} )
+
+
+loginBtn.addEventListener('click', function() {
+  const data = {
+    userName: userLogin.value,
+    password: passwordLogin.value,
+  };
+  const options = {
+     method: 'POST',
+     headers: {
+        'Content-Type': 'application/json'
+     },
+     body: JSON.stringify(data)
+  }
+  fetch('/login', options);
+} )
+
+
 showSignupStuff.addEventListener("click", function() {
     loginBtn.style.display = "none";
     signupBtn.style.display = "none";

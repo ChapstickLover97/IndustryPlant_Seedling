@@ -5,6 +5,27 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    {{{body}}}
+    <div class="flex-column justify-space-around">
+    <header class="display-flex justify-space-between align-center p-2">
+      <h1>
+        <a href="/">Industry Plant</a>
+      </h1>
+      <nav>
+        {{#if logged_in}}
+        <a href="/landingpage">Home Page</a> |
+        <button class="no-button" id="logout">logout</button>
+        {{else}}
+        {{!-- We dont have a login page for now but hope to add it --}}
+        <a href="/landingpage">login</a>
+        {{/if}}
+      </nav>
+    </header>
+    <main class="container container-fluid mt-5">
+      {{{ body }}}
+    </main>
+    <footer>
+      <h3>Industry Plant</h3>
+    </footer>
+  </div>
   </body>
 </html>
